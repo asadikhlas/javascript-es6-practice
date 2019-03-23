@@ -7,7 +7,7 @@ function addUser(name, lastname) {
                     <div>${lastname}</div>
             </div>
         `;
-  list.insertAdjacentElement("beforeend", template);
+  list.insertAdjacentHTML("beforeend", template);
 }
 addUser("asad", "ikhlas");
 addUser("usama", "ikhlas");
