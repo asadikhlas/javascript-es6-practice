@@ -6,3 +6,9 @@ const products = [
     { name: "Windows pone", category:'mp3', number:40 ,price: 2500 }
   ];
 
+  const result = products.filter(function(product){
+      return product.category === TV && product.number === 10 && product.price > 0
+  })
+
+  console.log(result)
+
