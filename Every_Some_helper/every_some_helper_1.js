@@ -1,13 +1,23 @@
 const students = [
-    {name:'asad',grade:6},
-    {name:'umair',grade:7},
-    {name:'shahbaz',grade:7}
+    {name:'asad',grade:4},
+    {name:'umair',grade:6},
+    {name:'shahbaz',grade:4}
 ]
 
-
+//every code
 let allStudentsPassedTheCourse = students.every(function(student){
     return student.grade >= 6 
 })
+
+//Some code
+let allStudentsPassedTheCourse = students.some(function(student){
+    return student.grade >= 6 
+})
+
+
+
+//Es5 way
+
 
 // let allStudentsPassedTheCourse = false;
 
