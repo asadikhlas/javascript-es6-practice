@@ -1,4 +1,4 @@
-const channel = [
+const channels = [
    {name:'HBO',premium:true},
    {name:'LIFE',premium:false},
    {name:'Max',premium:true},
@@ -10,9 +10,16 @@ const user = {
    premium:true,
    premiumChannels:function(){
        // GET THE PREMIUM CHANNELS IS "PREMIUM" IS true
+       const $this = this
+       return channels.filter(function(channel){
+           return channel.premium && $this.premium
+       })
    },
    channels:function(){
        // GET THE NON-PREMIUM CHANNELS
+       return channels.filter(function(channel){
+           return channel.premium === false;
+       })
    }
 }
 console.log(user.premiumChannels())
