@@ -6,15 +6,15 @@ const computers = [
   { type: "Laptop", price: 124, os: "Windows" }
 ];
 
-let result = computers.reduce(
-  function(start, computer) {
-    if (computer.os === "Mac") {
-      return { mac: Start.mac + 1, windows: Start.windows };
+let osTypes = computers.reduce(
+  function(start, item) {
+    if (item.os === "Mac") {
+      return { mac: start.mac + 1, windows: start.windows };
     } else {
-      return { mac: Start.mac, windows: Start.windows + 1 };
+      return { mac: start.mac, windows: start.windows + 1 };
     }
   },
   { mac: 0, windows: 0 }
 );
 
-console.log(result);
+console.log(osTypes);
