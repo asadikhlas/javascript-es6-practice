@@ -1,16 +1,15 @@
 const brands = [
-    {name:'I phone',id:1},
-    {name:'Samsung',id:2},
-    {name:'Samsung',id:3},
-    {name:'Motrolla',id:2}
-]
+  { name: "I phone", id: 1 },
+  { name: "Samsung", id: 2 },
+  { name: "Samsung", id: 3 },
+  { name: "Motrolla", id: 2 }
+];
 
- 
-const result = brands.find(function(brand){
-    return brand.name === 'Samsung'
-})
+const result = brands.find(function(brand) {
+  return brand.name === "Samsung";
+});
 
-console.log(result)
+console.log(result);
 
 //RESULT name:'Samsung',id:3
 
@@ -19,4 +18,4 @@ console.log(result)
 // })
 
 //result name:'Samsung',id:2,
-    //   name:'Samsung',id:3
+//   name:'Samsung',id:3
