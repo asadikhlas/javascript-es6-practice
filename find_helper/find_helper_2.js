@@ -5,26 +5,24 @@ const cars = [
   { brand: "Porsche", price: 100, available: 0, type: "Urban" }
 ];
 
-function getResults(price,type){
-    return cars.find(function(car){
-        return car.price < price && car.available > 0 && car.type === type
-    })
+function getResults(price, type) {
+  return cars.find(function(car) {
+    return car.price < price && car.available > 0 && car.type === type;
+  });
 }
 
-document.querySelector('.search').addEventListener("click",function(){
-    let price = parseInt(document.querySelector('#price').value)
-    let type = document.querySelector('#type').value
+document.querySelector(".search").addEventListener("click", function() {
+  let price = parseInt(document.querySelector("#price").value);
+  let type = document.querySelector("#type").value;
 
-    let results = getResults(price,type)
+  let results = getResults(price, type);
 
-    if(results){
-        console.log(`Found ${results.brand} for ${results.price}`)
-    }else{
-        console.log(`sorry, no car for you`)
-    }
+  if (results) {
+    console.log(`Found ${results.brand} for ${results.price}`);
+  } else {
+    console.log(`sorry, no car for you`);
+  }
 
-
-
-    // console.log(price)
-    // console.log(type)
-})
+  // console.log(price)
+  // console.log(type)
+});
