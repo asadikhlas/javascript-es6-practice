@@ -6,9 +6,8 @@
 //  }
 //  console.log(greeting())
 
-
-function greeting(name = 'user'){
-    return  `hello ${name}`
+function greeting(name = "user") {
+  return `hello ${name}`;
 }
 
-console.log(greeting('asad'))
+console.log(greeting("asad"));
