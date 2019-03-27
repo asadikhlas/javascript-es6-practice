@@ -15,12 +15,20 @@
 
 //es6 coding
 
-const users = [
-    {name:'asad',lastname:'ikhlas',age:22},
-    {name:'umair',lastname:'bajwa',age:21},
-    {name:'shahbaz',lastname:'hussain',age:25},
-]
+// const users = [
+//     {name:'asad',lastname:'ikhlas',age:22},
+//     {name:'umair',lastname:'bajwa',age:21},
+//     {name:'shahbaz',lastname:'hussain',age:25},
+// ]
 
-const [{lastname}] = users
+// const [{lastname}] = users
 
-console.log(lastname)
+// console.log(lastname)
+
+
+const users = {
+    names:['asad','ikhlas','usama']
+}
+const {names:[name1,name2]} = users
+
+console.log(name2)
