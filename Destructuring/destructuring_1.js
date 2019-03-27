@@ -14,14 +14,13 @@
 // console.log(lastname)
 // console.log(age)
 
-
 //ES6 CODE
 
 const user = {
-    name:'asad',
-    lastname:'ikhlas',
-    age:22
-}
+  name: "asad",
+  lastname: "ikhlas",
+  age: 22
+};
 
 // const {name,lastname,age} = user;
 
@@ -29,11 +28,8 @@ const user = {
 // console.log(lastname)
 // console.log(age)
 
+const message = ({ name, lastname, age }, salute) => {
+  console.log(`My name is ${name} ${lastname} and I am ${age} ${salute}`);
+};
 
-const message = ({name,lastname,age},salute) => {
-    console.log(`My name is ${name} ${lastname} and I am ${age} ${salute}`)
-}
-
-message(user,'hey')
-
-
+message(user, "hey");
