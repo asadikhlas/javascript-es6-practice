@@ -30,3 +30,10 @@ const user = {
 // console.log(age)
 
 
+const message = ({name,lastname,age},salute) => {
+    console.log(`My name is ${name} ${lastname} and I am ${age} ${salute}`)
+}
+
+message(user,'hey')
+
+
