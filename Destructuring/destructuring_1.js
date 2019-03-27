@@ -23,10 +23,10 @@ const user = {
     age:22
 }
 
-const {name} = user;
-const {lastname} = user;
-const {age} = user;
+// const {name,lastname,age} = user;
 
-console.log(name)
-console.log(lastname)
-console.log(age)
+// console.log(name)
+// console.log(lastname)
+// console.log(age)
+
+
