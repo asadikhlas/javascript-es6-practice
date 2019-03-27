@@ -1,4 +1,3 @@
-
 //ES5 CODE
 
 // const users = [
@@ -7,11 +6,9 @@
 //     {name:'shahbaz',lastname:'hussain',age:25},
 // ]
 
-
 // const lastname = users[0].lastname
 
 // console.log(lastname)
-
 
 //es6 coding
 
@@ -25,10 +22,11 @@
 
 // console.log(lastname)
 
-
 const users = {
-    names:['asad','ikhlas','usama']
-}
-const {names:[name1,name2]} = users
+  names: ["asad", "ikhlas", "usama"]
+};
+const {
+  names: [name1, name2]
+} = users;
 
-console.log(name2)
+console.log(name2);
