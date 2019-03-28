@@ -5,8 +5,10 @@
 
 let promise = new Promise((resolved, rejected)=>{
     setTimeout(()=>{
-        resolved()
+        // resolved()
+        rejected()
     },5000)
 })
 
 promise.then(()=>console.log('finished'))
+.catch(()=>console.log('damn'))
