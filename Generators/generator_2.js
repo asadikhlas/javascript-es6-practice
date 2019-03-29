@@ -1,11 +1,11 @@
-function *brands(){
-    yield 'Ford';
-    yield 'Nissan';
-    yield 'Chevy';
-    yield 'Toyota';
-    yield 'Honda';
+function* brands() {
+  yield "Ford";
+  yield "Nissan";
+  yield "Chevy";
+  yield "Toyota";
+  yield "Honda";
 }
-const gen = brands()
+const gen = brands();
 
 // console.log(gen.next())
 // console.log(gen.next())
@@ -15,6 +15,6 @@ const gen = brands()
 // console.log(gen.next())
 // console.log(gen.next())
 
-for(var i of brands()){
-    console.log(i)
+for (var i of brands()) {
+  console.log(i);
 }
