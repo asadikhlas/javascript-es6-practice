@@ -7,10 +7,14 @@ function *brands(){
 }
 const gen = brands()
 
-console.log(gen.next())
-console.log(gen.next())
-console.log(gen.next())
-console.log(gen.next())
-console.log(gen.next())
-console.log(gen.next())
-console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+
+for(var i of brands()){
+    console.log(i)
+}
