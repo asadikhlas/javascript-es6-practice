@@ -17,4 +17,4 @@ const gen = brands();
 
 for (var i of brands()) {
   console.log(i);
-}      
+}     
