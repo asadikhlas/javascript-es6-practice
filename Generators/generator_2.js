@@ -16,5 +16,5 @@ const gen = brands();
 // console.log(gen.next())
 
 for (var i of brands()) {
-  console.log(i);    
+  console.log(i);     
 }
