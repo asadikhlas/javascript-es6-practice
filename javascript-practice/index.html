@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <body>
 
 <p>Click the button to remove the last element from the array.</p>
@@ -13,6 +13,28 @@ document.getElementById("demo").innerHTML = fruits;
 
 function myFunction() {
   fruits.pop();
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>-->
+
+<html>
+<body>
+
+<p>Click the button to remove the last element from the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.unshift("guaya","grapes");
   document.getElementById("demo").innerHTML = fruits;
 }
 </script>
