@@ -56,6 +56,13 @@
 
 // newFunction()
 
+// var a = prompt("Enter a value");
+// var arr = [];
 
+// for (var i = 0; i < a.length; i++) {
+//     arr[i] = a.charAt(i);
+// }
+// arr.reverse();
+// alert(arr);
 
 
