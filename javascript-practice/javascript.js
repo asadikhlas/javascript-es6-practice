@@ -138,17 +138,30 @@
 
 
 
-const obj1 = {
-    name:'asad ikhlas',
-    age:22,
-    profession:'developer'
+// const obj1 = {
+//     name:'asad ikhlas',
+//     age:22,
+//     profession:'developer'
+// }
+
+// const obj2 = {
+//     skills:['programming','designing']
+// }
+
+// Object.assign(obj1,obj2)
+
+// console.log(obj1.skills)
+
+
+
+const obj = {
+    id1:1, 
+    id2:2, 
+    id3: 3
 }
-
-const obj2 = {
-    skills:['programming','designing']
+const message = ({id1,id2,id3}) => {
+let newObj = id1 === id2 ? 'equal' : 'not equal'
+console.log(newObj)
 }
-
-Object.assign(obj1,obj2)
-
-console.log(obj1.skills)
+message(obj)
 
