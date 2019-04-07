@@ -47,3 +47,15 @@
 
 // newFunction()
 
+
+// const newFunction = () => {
+//     let string = 'hello  world';
+//     let count = string.length;
+//     console.log(count)
+// }
+
+// newFunction()
+
+
+
+
