@@ -118,19 +118,37 @@
 
 
 
-const obj = {
-    name: 'Umair',
-    profession: 'developer', 
-    age: 21, 
-    skills: { 
-        Coding: ['react', 'javascript', 'nodejs'],
-        Design: { 
-            Platform: ['android', 'ios']
-        }
-    }
+// const obj = {
+//     name: 'Umair',
+//     profession: 'developer', 
+//     age: 21, 
+//     skills: { 
+//         Coding: ['react', 'javascript', 'nodejs'],
+//         Design: { 
+//             Platform: ['android', 'ios']
+//         }
+//     }
+// }
+
+// let message = `hello my name is ${obj.name} i'm a ${obj.profession} my skills is ${obj['skills'].Coding} and i design apps for ${obj['skills'].Design['Platform']}`
+
+
+// console.log(message)
+
+
+
+
+const obj1 = {
+    name:'asad ikhlas',
+    age:22,
+    profession:'developer'
 }
 
-let message = `hello my name is ${obj.name} i'm a ${obj.profession} my skills is ${obj['skills'].Coding} and i design apps for ${obj['skills'].Design['Platform']}`
+const obj2 = {
+    skills:['programming','designing']
+}
 
+Object.assign(obj1,obj2)
 
-console.log(message)
+console.log(obj1.skills)
+
