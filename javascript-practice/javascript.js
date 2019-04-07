@@ -5,6 +5,9 @@
 
 // console.log(otherArray)
 
+
+
+
 // const number = 80.6
 // let newNumber = Math.round(number)
 // console.log(newNumber)
@@ -19,19 +22,22 @@
 
 // returnemploye();
 
-const Obj = {
-    name: 'asad',
-    Id: '2101', 
-    profession: 'React Developer'
-}
 
-// const {name,Id,profession} = Obj;
 
-const message = ({name,Id,profession}) => {
-    console.log(`My name is ${name} my id is ${Id} and my profession is ${profession}`)
-} 
 
-message(Obj)
+// const Obj = {
+//     name: 'asad',
+//     Id: '2030', 
+//     profession: 'React Developer'
+// }
+
+// // const {name,Id,profession} = Obj;
+
+// const message = ({name,Id,profession}) => {
+//     console.log(`My name is ${name} my id is ${Id} and my profession is ${profession}`)
+// } 
+
+// message(Obj)
 
 
 
