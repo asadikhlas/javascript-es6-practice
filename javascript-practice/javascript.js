@@ -65,4 +65,5 @@
 // arr.reverse();
 // alert(arr);
 
-
+const New = new Date();
+console.log(New)
