@@ -9,14 +9,29 @@
 // let newNumber = Math.round(number)
 // console.log(newNumber)
 
-const returnemploye = () =>{
-    const name = "Asad";
-    const age = 22;
-    const position = "manager";
+// const returnemploye = () =>{
+//     const name = "Asad";
+//     const age = 22;
+//     const position = "manager";
 
-    console.log(`My name is ${name} my age is ${age} my position is ${position}`)
+//     console.log(`My name is ${name} my age is ${age} my position is ${position}`)
+// }
+
+// returnemploye();
+
+const Obj = {
+    name: 'asad',
+    Id: '2101', 
+    profession: 'React Developer'
 }
 
-returnemploye();
+// const {name,Id,profession} = Obj;
+
+const message = ({name,Id,profession}) => {
+    console.log(`My name is ${name} my id is ${Id} and my profession is ${profession}`)
+} 
+
+message(Obj)
+
 
 
