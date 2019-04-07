@@ -48,6 +48,11 @@
 // newFunction()
 
 
+
+
+
+
+
 // const newFunction = () => {
 //     let string = 'hello  world';
 //     let count = string.length;
@@ -55,6 +60,11 @@
 // }
 
 // newFunction()
+
+
+
+
+
 
 // var a = prompt("Enter a value");
 // var arr = [];
@@ -65,5 +75,16 @@
 // arr.reverse();
 // alert(arr);
 
-const New = new Date();
-console.log(New)
+
+
+
+// const New = new Date();
+// console.log(New)
+
+
+
+
+// let string = 'hello world';
+// let res = string.toUpperCase()
+
+// console.log(res)
