@@ -163,5 +163,5 @@ const message = ({id1,id2,id3}) => {
 let newObj = id1 === id2 ? 'equal' : 'not equal'
 console.log(newObj)
 }
-message(obj)   
+message(obj)  
 
