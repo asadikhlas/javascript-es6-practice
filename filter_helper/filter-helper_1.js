@@ -12,4 +12,4 @@ const result = products.filter(function(product){
     return product.price === 150
 })
 
-console.log(result)     
+console.log(result)    
