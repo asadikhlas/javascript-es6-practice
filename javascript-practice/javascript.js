@@ -154,14 +154,57 @@
 
 
 
-const obj = {
-    id1:1, 
-    id2:2, 
-    id3: 3
-}
-const message = ({id1,id2,id3}) => {
-let newObj = id1 === id2 ? 'equal' : 'not equal'
-console.log(newObj)
-}
-message(obj)
+// const obj = {
+//     id1:1, 
+//     id2:2, 
+//     id3: 3
+// }
+// const message = ({id1,id2,id3}) => {
+// let newObj = id1 === id2 ? 'equal' : 'not equal'
+// console.log(newObj)
+// }
+// message(obj)
 
+// var name = "asad";
+// name = "_khlas"
+
+// console.log(name)
+
+// var prezWhoCame1st = "Washington"
+// console.log(prezWhoCame1st)
+
+// 
+
+
+
+
+// var popularNumber = 12 - 24; 
+// console.log(popularNumber)
+
+
+// var whatsLeftOver = 10 % 3;
+// console.log(whatsLeftOver)
+
+// var num = 1;
+// var newNum = ++num;
+
+// console.log(newNum)
+
+// var totalCost = 1 + 3 * 4;
+// console.log(totalCost)
+
+// var spec = prompt("Your species?", "human");
+// console.log(spec)
+
+// var x = prompt("Where does the Pope live?"); 
+// if (x === "Vatican") { 
+//        alert("Correct!");  }
+//        console.log(x)
+
+var correctAnswer = "Vatican"; 
+ if (x === correctAnswer) { 
+        alert("Correct!"); 
+         }  else { 
+                score--; 
+                   userIQ = "problematic"; 
+                      alert("Incorrect"); 9 }
