@@ -13,3 +13,4 @@ const result = products.filter(function(product){
 })
 
 console.log(result)
+
