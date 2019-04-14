@@ -5,7 +5,7 @@
 let promise = new Promise((resolved, rejected) => {
   setTimeout(() => {
     // resolved()
-    rejected(); 
+    rejected();
   }, 5000);
 });
 
